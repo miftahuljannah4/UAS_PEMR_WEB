@@ -1,0 +1,921 @@
+CRITICAL - 2021-07-11 00:10:25 --> Call to a member function getPelayanan() on null
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Pelayanan->edit('1')
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 00:15:42 --> Call to undefined method App\Models\PelayananModel::update_pelayanan
+#0 C:\xampp\ci\app\Controllers\Pelayanan.php(58): CodeIgniter\Model->__call('update_pelayana...', Array)
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Pelayanan->update('1')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 00:16:02 --> Call to undefined method App\Models\PelayananModel::update_pelayanan
+#0 C:\xampp\ci\app\Controllers\Pelayanan.php(58): CodeIgniter\Model->__call('update_pelayana...', Array)
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Pelayanan->update('5')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 00:16:33 --> Call to undefined method App\Models\PelayananModel::update_pelayanan
+#0 C:\xampp\ci\app\Controllers\Pelayanan.php(58): CodeIgniter\Model->__call('update_pelayana...', Array)
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Pelayanan->update('5')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 00:56:07 --> Invalid file: loket/edit.php
+#0 C:\xampp\ci\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('loket/edit.php')
+#1 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('loket/edit', Array, true)
+#2 C:\xampp\ci\app\Controllers\Loket.php(31): view('loket/edit', Array)
+#3 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Loket->edit('1')
+#4 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#5 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#8 {main}
+CRITICAL - 2021-07-11 01:03:15 --> Invalid file: loket/create.php
+#0 C:\xampp\ci\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('loket/create.ph...')
+#1 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('loket/create', Array, true)
+#2 C:\xampp\ci\app\Controllers\Loket.php(36): view('loket/create')
+#3 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Loket->create()
+#4 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#5 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#8 {main}
+ERROR - 2021-07-11 01:04:43 --> Column 'loket_pelayanan_id' cannot be null
+ERROR - 2021-07-11 01:05:15 --> Column 'loket_name' cannot be null
+CRITICAL - 2021-07-11 01:33:21 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-11 01:34:23 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-11 01:36:23 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-11 01:39:10 --> Too few arguments to function App\Controllers\Loket::edit(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Loket->edit()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 01:46:22 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-11 01:46:22 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Views\loket\edit.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 34, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('loket/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Loket.php(32): view('loket/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Loket->edit('5')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 01:46:22 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Views\loket\edit.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 34, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('loket/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Loket.php(32): view('loket/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Loket->edit('5')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 01:46:22 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Views\loket\edit.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 34, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('loket/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Loket.php(32): view('loket/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Loket->edit('5')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 01:46:27 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Views\loket\edit.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 34, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('loket/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Loket.php(32): view('loket/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Loket->edit('5')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 01:46:34 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Views\loket\edit.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 34, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('loket/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Loket.php(32): view('loket/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Loket->edit('3')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 03:16:03 --> Invalid file: antrian/index.php
+#0 C:\xampp\ci\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('antrian/index.p...')
+#1 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('antrian/index', Array, true)
+#2 C:\xampp\ci\app\Controllers\Antrian.php(9): view('antrian/index')
+#3 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->index()
+#4 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#8 {main}
+CRITICAL - 2021-07-11 03:51:12 --> Class 'App\Models\AntrianModel' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#1 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 03:51:14 --> Class 'App\Models\AntrianModel' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#1 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 03:52:12 --> Class 'App\Models\AntrianModel' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#1 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 03:52:13 --> Class 'App\Models\AntrianModel' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#1 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 03:52:14 --> Class 'App\Models\AntrianModel' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#1 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 03:52:15 --> Class 'App\Models\AntrianModel' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#1 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 03:52:19 --> Class 'App\Models\AntrianModel' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#1 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 03:52:33 --> Class 'App\Models\AntrianModel' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#1 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 03:52:52 --> Class 'App\Models\AntrianModel' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#1 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 04:01:11 --> syntax error, unexpected ''antrian_waktu_selesai'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:01:29 --> Class 'App\Controllers\Time' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->cs()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 04:01:52 --> Class 'App\Controllers\Time' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->cs()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 04:02:22 --> Class 'App\Controllers\Time' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->cs()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 04:06:04 --> Class 'App\Controllers\Time' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->css()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 04:07:27 --> syntax error, unexpected '2021' (T_LNUMBER), expecting ')'
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:07:31 --> syntax error, unexpected '2021' (T_LNUMBER), expecting ')'
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian/css')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian/css')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:08:22 --> syntax error, unexpected '}', expecting ')'
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian/css')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian/css')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:08:24 --> syntax error, unexpected '}', expecting ')'
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian/css')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian/css')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:09:03 --> syntax error, unexpected '}'
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian/css')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian/css')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:11:23 --> syntax error, unexpected '}'
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:11:25 --> syntax error, unexpected '}'
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:11:38 --> Call to a member function query() on null
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->css()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 04:14:12 --> Class 'App\Controllers\Time' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->cs()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 04:14:38 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian/cs')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian/cs')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:14:39 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian/cs')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian/cs')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:14:51 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian/cs')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian/cs')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:14:59 --> time() expects exactly 0 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'time() expects ...', 'C:\\xampp\\ci\\app...', 30, Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(30): time('now')
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->cs()
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+CRITICAL - 2021-07-11 04:16:50 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:17:53 --> Class 'App\Controllers\Time' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->cs()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 04:18:09 --> time() expects exactly 0 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'time() expects ...', 'C:\\xampp\\ci\\app...', 32, Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(32): time('now')
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->cs()
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+CRITICAL - 2021-07-11 04:18:51 --> Class 'App\Controllers\Time' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->cs()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 04:19:19 --> Class 'App\Controllers\Time' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->cs()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 04:20:09 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian/cs')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian/cs')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 04:20:52 --> Class 'App\Controllers\Time' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->cs()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 04:21:02 --> Class 'App\Controllers\Time' not found
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->cs()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+ERROR - 2021-07-11 04:32:34 --> Column 'antrian_loket_id' cannot be null
+ERROR - 2021-07-11 04:32:37 --> Column 'antrian_loket_id' cannot be null
+ERROR - 2021-07-11 04:32:49 --> Column 'antrian_loket_id' cannot be null
+CRITICAL - 2021-07-11 05:24:44 --> Call to undefined method App\Models\AntrianModel::insert_id
+#0 C:\xampp\ci\app\Controllers\Antrian.php(47): CodeIgniter\Model->__call('insert_id', Array)
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->cs()
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 05:37:20 --> Call to a member function getLoket() on null
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->id('4')
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 05:40:14 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Controllers\Antrian.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 28, Array)
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->id('4')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 05:41:58 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Controllers\Antrian.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 28, Array)
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->id('4')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 05:42:10 --> A non-numeric value encountered
+#0 C:\xampp\ci\app\Controllers\Antrian.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\ci\\app...', 30, Array)
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->id('4')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 05:46:22 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian/edit')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian/edit')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 05:46:25 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('antrian/edit/3')
+#1 C:\xampp\ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('antrian/edit/3')
+#2 C:\xampp\ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 05:47:50 --> Too few arguments to function App\Controllers\Antrian::edit(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 05:50:33 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Views\antrian\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 4, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('antrian/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Antrian.php(30): view('antrian/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('3')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 05:50:41 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Views\antrian\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 3, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('antrian/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Antrian.php(30): view('antrian/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('3')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 05:51:25 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Views\antrian\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 3, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('antrian/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Antrian.php(30): view('antrian/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('3')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 05:54:20 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\ci\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\ci\\app...')
+#1 C:\xampp\ci\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Antr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Antr...')
+#3 C:\xampp\ci\app\Controllers\Antrian.php(14): spl_autoload_call('App\\Models\\Antr...')
+#4 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#5 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#9 {main}
+CRITICAL - 2021-07-11 05:54:23 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\ci\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\ci\\app...')
+#1 C:\xampp\ci\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Antr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Antr...')
+#3 C:\xampp\ci\app\Controllers\Antrian.php(14): spl_autoload_call('App\\Models\\Antr...')
+#4 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#5 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#9 {main}
+CRITICAL - 2021-07-11 05:54:33 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\ci\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\ci\\app...')
+#1 C:\xampp\ci\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Antr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Antr...')
+#3 C:\xampp\ci\app\Controllers\Antrian.php(14): spl_autoload_call('App\\Models\\Antr...')
+#4 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#5 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#9 {main}
+CRITICAL - 2021-07-11 05:54:56 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\ci\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\ci\\app...')
+#1 C:\xampp\ci\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Antr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Antr...')
+#3 C:\xampp\ci\app\Controllers\Antrian.php(14): spl_autoload_call('App\\Models\\Antr...')
+#4 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#5 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#9 {main}
+CRITICAL - 2021-07-11 05:55:14 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\ci\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\ci\\app...')
+#1 C:\xampp\ci\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Antr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Antr...')
+#3 C:\xampp\ci\app\Controllers\Antrian.php(14): spl_autoload_call('App\\Models\\Antr...')
+#4 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#5 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#9 {main}
+CRITICAL - 2021-07-11 05:55:54 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\ci\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\ci\\app...')
+#1 C:\xampp\ci\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Antr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Antr...')
+#3 C:\xampp\ci\app\Controllers\Antrian.php(14): spl_autoload_call('App\\Models\\Antr...')
+#4 C:\xampp\ci\system\CodeIgniter.php(900): App\Controllers\Antrian->__construct()
+#5 C:\xampp\ci\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#9 {main}
+CRITICAL - 2021-07-11 05:57:22 --> Call to undefined method App\Models\AntrianModel::select_max
+#0 C:\xampp\ci\app\Models\AntrianModel.php(17): CodeIgniter\Model->__call('select_max', Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(29): App\Models\AntrianModel->getAntrian('3')
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('3')
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+CRITICAL - 2021-07-11 05:57:26 --> Too few arguments to function App\Controllers\Antrian::edit(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 05:57:30 --> Too few arguments to function App\Controllers\Antrian::edit(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 05:57:32 --> Call to undefined method App\Models\AntrianModel::select_max
+#0 C:\xampp\ci\app\Models\AntrianModel.php(17): CodeIgniter\Model->__call('select_max', Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(29): App\Models\AntrianModel->getAntrian('3')
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('3')
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+CRITICAL - 2021-07-11 05:59:38 --> Call to undefined method App\Models\AntrianModel::max
+#0 C:\xampp\ci\app\Models\AntrianModel.php(17): CodeIgniter\Model->__call('max', Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(29): App\Models\AntrianModel->getAntrian('3')
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('3')
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+ERROR - 2021-07-11 06:01:31 --> Unknown column 'antrian_loket' in 'where clause'
+CRITICAL - 2021-07-11 06:01:31 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\ci\app\Controllers\Antrian.php(29): App\Models\AntrianModel->getAntrian('2')
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('2')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 06:08:42 --> Call to undefined method App\Models\AntrianModel::order_by
+#0 C:\xampp\ci\app\Models\AntrianModel.php(18): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(29): App\Models\AntrianModel->getAntrian('1')
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('1')
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+CRITICAL - 2021-07-11 06:08:51 --> Call to undefined method App\Models\AntrianModel::order_by
+#0 C:\xampp\ci\app\Models\AntrianModel.php(18): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(29): App\Models\AntrianModel->getAntrian('2')
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('2')
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+CRITICAL - 2021-07-11 06:09:28 --> Call to undefined method App\Models\AntrianModel::order_by
+#0 C:\xampp\ci\app\Models\AntrianModel.php(18): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(29): App\Models\AntrianModel->getAntrian('2')
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('2')
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+CRITICAL - 2021-07-11 06:13:59 --> Call to undefined method App\Models\AntrianModel::order_by
+#0 C:\xampp\ci\app\Models\AntrianModel.php(22): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(29): App\Models\AntrianModel->getAntrian('2')
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('2')
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+CRITICAL - 2021-07-11 06:14:22 --> Too few arguments to function App\Controllers\Antrian::edit(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 06:14:43 --> Too few arguments to function App\Controllers\Antrian::edit(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 06:15:24 --> Too few arguments to function App\Controllers\Antrian::edit(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 06:15:48 --> Too few arguments to function App\Controllers\Antrian::edit(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 06:16:28 --> Too few arguments to function App\Controllers\Antrian::edit(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 06:17:17 --> Too few arguments to function App\Controllers\Antrian::edit(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 06:17:20 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Views\antrian\edit.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 2, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('antrian/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Antrian.php(30): view('antrian/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('a')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 06:17:22 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Views\antrian\edit.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 2, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('antrian/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Antrian.php(30): view('antrian/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('1')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 06:17:37 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Views\antrian\edit.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 2, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('antrian/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Antrian.php(30): view('antrian/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('1')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 06:17:40 --> A non-numeric value encountered
+#0 C:\xampp\ci\app\Views\antrian\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\ci\\app...', 4, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('antrian/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Antrian.php(30): view('antrian/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('4')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 06:17:57 --> A non-numeric value encountered
+#0 C:\xampp\ci\app\Views\antrian\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\ci\\app...', 4, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('antrian/edit', Array, true)
+#4 C:\xampp\ci\app\Controllers\Antrian.php(30): view('antrian/edit', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edit('4')
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 06:20:08 --> Too few arguments to function App\Controllers\Antrian::edite(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 06:20:18 --> Too few arguments to function App\Controllers\Antrian::edite(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 06:20:26 --> Too few arguments to function App\Controllers\Antrian::edite(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 06:20:46 --> Too few arguments to function App\Controllers\Antrian::edite(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 06:21:07 --> Too few arguments to function App\Controllers\Antrian::edite(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 06:22:50 --> Too few arguments to function App\Controllers\Antrian::edite(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-11 06:23:07 --> Invalid argument supplied for foreach()
+#0 C:\xampp\ci\app\Views\antrian\edit2.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\ci\\app...', 3, Array)
+#1 C:\xampp\ci\system\View\View.php(230): include('C:\\xampp\\ci\\app...')
+#2 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('antrian/edit2', Array, true)
+#4 C:\xampp\ci\app\Controllers\Antrian.php(36): view('antrian/edit2', Array)
+#5 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite()
+#6 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#10 {main}
+CRITICAL - 2021-07-11 06:25:16 --> Call to undefined method App\Models\AntrianModel::order_by
+#0 C:\xampp\ci\app\Models\AntrianModel.php(14): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite()
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+CRITICAL - 2021-07-11 06:25:28 --> Call to undefined method App\Models\AntrianModel::order_by
+#0 C:\xampp\ci\app\Models\AntrianModel.php(14): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite()
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+CRITICAL - 2021-07-11 06:26:14 --> Call to undefined method App\Models\AntrianModel::order_by
+#0 C:\xampp\ci\app\Models\AntrianModel.php(13): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite()
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+CRITICAL - 2021-07-11 06:26:24 --> Call to undefined method App\Models\AntrianModel::order_by
+#0 C:\xampp\ci\app\Models\AntrianModel.php(13): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#2 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite()
+#3 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#7 {main}
+CRITICAL - 2021-07-11 06:30:44 --> Call to a member function segment() on null
+#0 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite('1')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 06:30:49 --> Call to a member function segment() on null
+#0 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite('2')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 06:31:15 --> Call to a member function segment() on null
+#0 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite('2')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 06:31:23 --> Call to a member function segment() on null
+#0 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite('2')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 06:31:31 --> Call to a member function segment() on null
+#0 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite('2', '3')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 06:31:38 --> Call to a member function segment() on null
+#0 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite('2', '3')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 06:31:42 --> Call to a member function segment() on null
+#0 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite('2', '3')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 06:36:26 --> Call to a member function getSegment() on null
+#0 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite('2', '3')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}
+CRITICAL - 2021-07-11 06:36:39 --> Call to a member function getSegment() on null
+#0 C:\xampp\ci\app\Controllers\Antrian.php(35): App\Models\AntrianModel->getAntrian()
+#1 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Antrian->edite('2', '3')
+#2 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#6 {main}

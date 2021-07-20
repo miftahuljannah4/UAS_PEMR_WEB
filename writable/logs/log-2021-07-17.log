@@ -1,0 +1,125 @@
+CRITICAL - 2021-07-17 09:35:00 --> Too few arguments to function App\Controllers\Loketpanggil::edit(), 0 passed in C:\xampp\ci\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->edit()
+#1 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#2 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#5 {main}
+CRITICAL - 2021-07-17 09:43:25 --> syntax error, unexpected '=', expecting identifier (T_STRING)
+#0 C:\xampp\ci\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\ci\system\Common.php(1271): CodeIgniter\View\View->render('loketpanggil/in...', Array, true)
+#2 C:\xampp\ci\app\Controllers\Loketpanggil.php(23): view('loketpanggil/in...', Array)
+#3 C:\xampp\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->index()
+#4 C:\xampp\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#5 C:\xampp\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\ci\\pub...')
+#8 {main}
+ERROR - 2021-07-17 10:22:23 --> Table 'ci4.antrian' doesn't exist
+CRITICAL - 2021-07-17 10:22:23 --> Call to a member function getResultArray() on bool
+#0 C:\Users\sahru\Downloads\ci\app\Controllers\Loketpanggil.php(18): App\Models\AntrianModel->getAntrianno(4)
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->index()
+#2 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#3 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sahru\Downloads\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sahru\Downloads\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\sahru\\...')
+#6 {main}
+ERROR - 2021-07-17 10:22:25 --> Table 'ci4.antrian' doesn't exist
+CRITICAL - 2021-07-17 10:22:25 --> Call to a member function getResultArray() on bool
+#0 C:\Users\sahru\Downloads\ci\app\Controllers\Loketpanggil.php(18): App\Models\AntrianModel->getAntrianno(4)
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->index()
+#2 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#3 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sahru\Downloads\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sahru\Downloads\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\sahru\\...')
+#6 {main}
+ERROR - 2021-07-17 10:22:26 --> Table 'ci4.antrian' doesn't exist
+CRITICAL - 2021-07-17 10:22:26 --> Call to a member function getResultArray() on bool
+#0 C:\Users\sahru\Downloads\ci\app\Controllers\Loketpanggil.php(18): App\Models\AntrianModel->getAntrianno(4)
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->index()
+#2 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#3 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sahru\Downloads\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sahru\Downloads\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\sahru\\...')
+#6 {main}
+ERROR - 2021-07-17 10:22:26 --> Table 'ci4.antrian' doesn't exist
+CRITICAL - 2021-07-17 10:22:26 --> Call to a member function getResultArray() on bool
+#0 C:\Users\sahru\Downloads\ci\app\Controllers\Loketpanggil.php(18): App\Models\AntrianModel->getAntrianno(4)
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->index()
+#2 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#3 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sahru\Downloads\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sahru\Downloads\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\sahru\\...')
+#6 {main}
+ERROR - 2021-07-17 10:22:26 --> Table 'ci4.antrian' doesn't exist
+CRITICAL - 2021-07-17 10:22:26 --> Call to a member function getResultArray() on bool
+#0 C:\Users\sahru\Downloads\ci\app\Controllers\Loketpanggil.php(18): App\Models\AntrianModel->getAntrianno(4)
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->index()
+#2 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#3 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sahru\Downloads\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sahru\Downloads\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\sahru\\...')
+#6 {main}
+ERROR - 2021-07-17 10:22:26 --> Table 'ci4.antrian' doesn't exist
+CRITICAL - 2021-07-17 10:22:26 --> Call to a member function getResultArray() on bool
+#0 C:\Users\sahru\Downloads\ci\app\Controllers\Loketpanggil.php(18): App\Models\AntrianModel->getAntrianno(4)
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->index()
+#2 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#3 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sahru\Downloads\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sahru\Downloads\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\sahru\\...')
+#6 {main}
+ERROR - 2021-07-17 10:22:26 --> Table 'ci4.antrian' doesn't exist
+CRITICAL - 2021-07-17 10:22:26 --> Call to a member function getResultArray() on bool
+#0 C:\Users\sahru\Downloads\ci\app\Controllers\Loketpanggil.php(18): App\Models\AntrianModel->getAntrianno(4)
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->index()
+#2 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#3 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sahru\Downloads\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sahru\Downloads\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\sahru\\...')
+#6 {main}
+ERROR - 2021-07-17 10:22:26 --> Table 'ci4.antrian' doesn't exist
+CRITICAL - 2021-07-17 10:22:26 --> Call to a member function getResultArray() on bool
+#0 C:\Users\sahru\Downloads\ci\app\Controllers\Loketpanggil.php(18): App\Models\AntrianModel->getAntrianno(4)
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->index()
+#2 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#3 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sahru\Downloads\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sahru\Downloads\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\sahru\\...')
+#6 {main}
+ERROR - 2021-07-17 10:22:27 --> Table 'ci4.antrian' doesn't exist
+CRITICAL - 2021-07-17 10:22:27 --> Call to a member function getResultArray() on bool
+#0 C:\Users\sahru\Downloads\ci\app\Controllers\Loketpanggil.php(18): App\Models\AntrianModel->getAntrianno(4)
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->index()
+#2 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#3 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sahru\Downloads\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sahru\Downloads\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\sahru\\...')
+#6 {main}
+ERROR - 2021-07-17 10:22:39 --> Table 'ci4.antrian' doesn't exist
+CRITICAL - 2021-07-17 10:22:39 --> Call to a member function getResultArray() on bool
+#0 C:\Users\sahru\Downloads\ci\app\Controllers\Loketpanggil.php(18): App\Models\AntrianModel->getAntrianno(4)
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->index()
+#2 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#3 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sahru\Downloads\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sahru\Downloads\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\sahru\\...')
+#6 {main}
+ERROR - 2021-07-17 10:22:55 --> Table 'ci4.antrian' doesn't exist
+CRITICAL - 2021-07-17 10:22:55 --> Call to a member function getResultArray() on bool
+#0 C:\Users\sahru\Downloads\ci\app\Controllers\Loketpanggil.php(18): App\Models\AntrianModel->getAntrianno(4)
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(928): App\Controllers\Loketpanggil->index()
+#2 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loketpanggil))
+#3 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sahru\Downloads\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sahru\Downloads\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\sahru\\...')
+#6 {main}
+ERROR - 2021-07-17 11:02:35 --> Table 'ci4.loket' doesn't exist
+CRITICAL - 2021-07-17 11:02:35 --> Call to a member function getResultArray() on bool
+#0 C:\Users\sahru\Downloads\ci\app\Controllers\Loket.php(25): App\Models\LoketModel->getLoket()
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(928): App\Controllers\Loket->index()
+#2 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#3 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sahru\Downloads\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sahru\Downloads\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\sahru\\...')
+#6 {main}

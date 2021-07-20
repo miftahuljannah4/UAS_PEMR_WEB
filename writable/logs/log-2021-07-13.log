@@ -1,0 +1,13 @@
+CRITICAL - 2021-07-13 14:16:11 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\sahru\Downloads\ci\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\sahru\Downloads\ci\spark(46): require('C:\\Users\\sahru\\...')
+#4 {main}
+CRITICAL - 2021-07-13 14:18:42 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\sahru\Downloads\ci\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\sahru\Downloads\ci\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\sahru\Downloads\ci\spark(46): require('C:\\Users\\sahru\\...')
+#4 {main}
+ERROR - 2021-07-13 08:30:21 --> Table 'ci4.antrian' doesn't exist
