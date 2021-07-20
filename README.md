@@ -6,3 +6,13 @@
 # KELAS = TI19B2
 # NIM = 311910740
 
+
+# DEMO
+http://54.254.248.107/ci-miftah/public/
+
+# Tampilan index.php atau UI
+
+
+# Tampilan CRUD
+
+# 
