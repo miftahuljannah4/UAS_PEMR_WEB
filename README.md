@@ -15,4 +15,20 @@ http://54.254.248.107/ci-miftah/public/
 
 # Tampilan CRUD
 
-# 
+# Tampilan Antrian
+
+# Tampilan Setelah Mengambil Antrian
+
+# Tampilan No Antrian
+
+# Tampilan Pelayanan
+
+# Tampilan Tambah Pelayanan
+
+# Tampilan Edit Pelayanan
+
+# Tampilan Delete Pelayanan
+
+# Tampilan Loket
+
+# Tampilan Panggilan Antrian di Loket
